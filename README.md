@@ -1,26 +1,37 @@
 # AI-Engineering-Rehberi-Chip-Huyen
-AI Engineering Rehberi: Chip Huyen 
-Bu depo, Chip Huyen'in dünyaca ünlü "Introduction to Machine Learning Systems" kitabı temel alınarak hazırlanmış, Türkçe bir çalışma ve uygulama rehberidir. Yapay zeka sistemlerini bir hobi projesinden çıkarıp, ölçeklenebilir ve güvenilir üretim sistemlerine dönüştürmek isteyen mühendisler için derlenmiştir.
 
+Bu depo, Chip Huyen'in **"Introduction to Machine Learning Systems"** kitabı temel alınarak hazırlanmış, Türkçe bir çalışma ve uygulama rehberidir. Yapay zeka sistemlerini üretim seviyesine (production) taşımak isteyen mühendisler için kritik notlar ve pratik bilgiler içerir.
 
-Başlangıç
-Bu rehberden en iyi şekilde yararlanmak için:
+## 📌 Rehber Hakkında
 
-Bu depoyu yıldızlayın (Star) ve forklayın.
+Makine öğrenmesi modelleri geliştirmek işin sadece küçük bir parçasıdır. Bu rehber, kitaptaki karmaşık mühendislik kavramlarını Türkçeleştirerek şu temel sorulara odaklanır:
 
-notlar/ klasöründeki her bölümün özetini inceleyin.
+* Veri boru hatları nasıl inşa edilir?
+* Modeller nasıl ölçeklenir?
+* Canlıdaki bir sistemde performans düşüşü (drift) nasıl izlenir?
 
-kod/ klasöründeki Python uygulamalarını kendi ortamınızda çalıştırın.
+## 📖 İçerik Özeti
 
-Bash
-git clone https://github.com/kullaniciadi/ai-engineering-rehberi.git
+Rehber, kitaptaki bölümlere paralel olarak aşağıdaki konuları kapsar:
+
+1.  **ML Sistem Tasarımı:** Gereksinimler ve yinelemeli süreçler.
+2.  **Veri Mühendisliği:** Veri formatları, depolama ve işleme boru hatları.
+3.  **Eğitim Verisi:** Etiketleme stratejileri ve veri sentezleme.
+4.  **Özellik Mühendisliği (Feature Engineering):** Teknikler ve en iyi pratikler.
+5.  **Model Eğitimi:** Algoritma seçimi ve kaynak optimizasyonu.
+6.  **Değerlendirme:** Offline metrikler ve Online testler (A/B Testi).
+7.  **Model Servisi (Deployment):** Tahmin stratejileri ve altyapı.
+8.  **İzleme ve Bakım:** Data & Concept Drift tespiti ve çözümü.
+
+---
+
+## 🛠️ Nasıl Kullanılır?
+
+Bu rehberi bir yol haritası olarak takip edebilir veya ihtiyaç duyduğunuz konuya doğrudan atlayabilirsiniz.
+
+```bash
+# Depoyu klonlayın
+git clone [https://github.com/kullanici-adin/ai-engineering-rehberi.git](https://github.com/kullanici-adin/ai-engineering-rehberi.git)
+
+# İlgili klasöre gidin
 cd ai-engineering-rehberi
-🤝 Katkıda Bulunma
-Geliştirmelere ve katkılara açığız!
-
-Yazım hatalarını düzeltmek için bir Pull Request açabilirsiniz.
-
-Eklemek istediğiniz yeni örnekler varsa lütfen paylaşın.
-
-📜 Lisans
-Bu proje MIT lisansı altında korunmaktadır.
